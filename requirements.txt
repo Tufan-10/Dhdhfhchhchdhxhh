@@ -2,3 +2,4 @@ pystyle==2.9
 aiogram==2.25.1
 colorama
 requests
+python-telegram-bot
