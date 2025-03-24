@@ -1,4 +1,4 @@
-pystyle==2.9
-aiogram==2.25.1
+pystyle
+aiogram
 colorama
 requests
