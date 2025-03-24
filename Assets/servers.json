@@ -1,0 +1,11 @@
+{
+    "Servers": [
+        {
+            "host": "159.65.194.234",
+            "port": "3389",
+            "username": "Administrator",
+            "password": "Admin123",
+            "threads": ""
+        }
+    ]
+}
