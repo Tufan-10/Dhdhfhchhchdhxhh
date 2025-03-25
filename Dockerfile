@@ -1,5 +1,5 @@
-# Use a lightweight Python base image
-FROM python:3.9-slim
+# Use the Python 3.11 slim base image
+FROM python:3.11-slim
 
 # Install system dependencies needed for building C extensions (e.g., for aiohttp)
 RUN apt-get update && apt-get install -y \
